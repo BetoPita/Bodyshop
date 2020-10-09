@@ -1,0 +1,58 @@
+.avatar-item{
+	width: 80px;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.avatar-item.hover:hover{
+	color: #4285F4;
+}
+.avatar-item.hover:hover figure{
+	border-color: #4285F4;
+}
+.fc-toolbar{
+	background-color: #4285F4;
+}
+.fc th{
+	background-color: #1D72FF;
+}
+.fc-event{
+	cursor: pointer;
+}
+.fc-title{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.fc-event.F44336{
+	background-color: #F44336 !important;
+}
+.fc-event.E91E63{
+	background-color: #E91E63 !important;
+}
+.fc-event.9C27B0{
+	background-color: #9C27B0 !important;
+}
+.fc-event.3F51B5{
+	background-color: #3F51B5 !important;
+}
+.fc-event.2196F3{
+	background-color: #2196F3 !important;
+}
+.fc-event.009688{
+	background-color: #009688 !important;
+}
+.fc-event.4CAF50{
+	background-color: #4CAF50 !important;
+}
+.fc-event.FFEB3B{
+	background-color: #FFEB3B !important;
+}
+.fc-event.FF9800{
+	background-color: #FF9800 !important;
+}
+.fc-event.795548{
+	background-color: #795548 !important;
+}

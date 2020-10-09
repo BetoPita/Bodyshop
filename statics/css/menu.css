@@ -1,0 +1,49 @@
+/**
+ * File that contains all the styles 
+ * about the left menu of the admin
+ **/
+
+#data_menu {
+    float: left;
+    position: absolute;
+    width: 220px;
+    min-height: 100%;
+    height: 100%;
+    background-color: #ececec;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+#data_menu_inside {
+    margin-top: 100px;
+}
+
+#files_bodys {
+    float: left;
+    width: 700px;
+    margin-left: 150px;
+}
+
+.no_text_decoration {
+    text-decoration: none !important;
+}
+
+.barra_lateral {
+    /*background-image: url(../img/bt_lateral.jpg);*/
+    background: #ccc;
+    width: 220px;
+    height: 32px;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.border_menu {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#options_tournament, #options_notifications,
+#options_teams, #options_jornadas,
+#options_name_jornadas, #options_news,
+#options_sports, #options_promotions,#options_eventos, #options_encuestas ,#options_agenda,#options_albums,#options_tips, #options_producto,#options_mezcla {
+    display: none
+}

@@ -1,0 +1,32 @@
+.s-text{
+border-radius: 6px;
+width: 200px;
+height: 30px;
+border: 1px solid #E0E0E0;
+padding: 5px 5px 5px 5px;
+margin-top: 0px;
+}
+
+.login-button{
+top:20%;
+right:45%;
+width:213px; 
+background-color:#666666; 
+border:solid 1px #000000; 
+padding:8px;
+color:#000000;
+font-weight:bolder;
+border-radius: 6px;
+}
+
+.login-button:hover{
+top:20%;
+right:45%;
+width:213px; 
+background-color:#999999; 
+border:solid 1px #000000; 
+padding:8px;
+cursor:pointer;
+color:#FFFFFF;
+border-radius: 6px;
+}

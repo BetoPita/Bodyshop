@@ -1,0 +1,64 @@
+/**
+ * File that contains all the information about
+ * the margins, paddings and more of the platform
+ **/
+
+/**
+ * PADDINGS
+ **/
+
+.padding_left_one {
+    padding-left: 15px;
+}
+
+.padding_left_two {
+    padding-left: 35px;
+}
+
+.padding_left_three {
+    padding-left: 20px;
+}
+
+.padding_left_four {
+    padding-left: 6px;
+}
+
+/**
+ * MARGINS
+ **/
+.margin_top_one {
+    margin-top: 50px;
+}
+
+.margin_top_two {
+    margin-top: 20px;
+}
+
+.margin_top_three {
+    margin-top: 10px;
+}
+
+.margin_top_minus_one {
+    margin-top: -10px;
+}
+
+.margin_left_one {
+    margin-left: 150px;
+}
+
+.margin_left_two {
+    margin-left: 650px;
+}
+
+.margin_bottom_one {
+    margin-bottom: 10px;
+}
+
+/**
+ * COMBINED
+ **/
+
+#combined_one {
+    margin-left: 300px;
+    margin-top: 10px;
+}

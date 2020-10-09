@@ -1,0 +1,61 @@
+thead{
+	pointer-events: none;
+}
+.sorting_asc,
+.sorting_desc,
+.sorting{
+	background-image: none !important;
+}
+.datos{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #dddddd;
+}
+.contenedor-signature{
+	width: 100%;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+#signature {
+    width: 300px;
+    border: dashed 2px #53777A;
+    margin: 0;
+    text-align: center;
+}
+.contenedor-texto{
+	margin-bottom: 20px;
+	padding: 5px;
+	border: dashed 1px #dddddd;
+	min-height: 50px;
+}
+.contenedor-texto.view{
+	border: none;
+}
+.card-body .card-tools{
+    width: 100%;
+    display: block;
+    text-align: right;
+    text-align: -webkit-right;
+    text-align: -moz-right;
+    margin-bottom: 20px;
+}
+.card-footer{
+	padding: 10px;
+	text-align: right;
+	text-align: -webkit-right;
+	text-align: -moz-right;
+}
+.element-editor{
+	display: none;
+}
+.centered{
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+.firma .linea{
+	width: 300px;
+	border-top: 2px solid #000;
+	margin-bottom: 5px;
+}

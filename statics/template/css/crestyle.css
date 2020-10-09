@@ -1,0 +1,58 @@
+.bgm-transparent{
+	background:transparent !important; 
+	border:none !important;
+}
+.bgm-header{
+	background:#57717D;
+	padding-top:13px; 
+	padding-bottom:13px;
+}
+
+.bgm-header_inicio{
+	background:#00AABF;
+	padding-top:13px; 
+	padding-bottom:13px;
+}
+
+.m-l-35{
+	margin-left: 35px;
+}
+
+@media(max-width: 640px)   { 
+	#titulo {
+		margin-left: 0px;
+		padding-left: 0px !important;
+	}
+	#rowtitulo{
+		padding-left: 0px !important;
+	}
+	#body-index{
+		
+		  height: 100% !important;
+		   width: 100% !important;
+		  background: url("../img/login/iniciozavor2.png") no-repeat center center fixed !important;
+		  background-size: 100% auto;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+	}
+}
+@media (min-width: 768px) and (max-width: 1920px) {
+	#titulo {
+		margin-left: 0px;
+		padding-left: 0px !important;
+	}
+	#body-index{
+	 height: 100% !important;
+	 width: 100% !important;
+	  background: url("../img/login/iniciozavor1.png") no-repeat center center fixed !important;
+	  background-size: 100% auto;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  background-position: 10px;
+	}
+	
+}

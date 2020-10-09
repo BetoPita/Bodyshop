@@ -1,0 +1,272 @@
+.thumbnail > figure > img{
+	max-width: 100%;
+}
+.lv-item:hover{
+	background-color: #ededed;
+}
+.lv-item img{
+	width: 100%;
+	max-width: 64px;
+}
+.lv-body .lv-item{
+	border-bottom: 1px solid #ededed;
+}
+.lv-body .lv-item:last-child{
+	border-bottom-color: transparent;
+}
+figure.portada{
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+}
+figure.portada > img{
+	max-width: 100%;
+}
+figure.portada.perfil > img{
+	width: 100%;
+	max-width: 100%;
+}
+.alianza-logo{
+	width: 100%;
+}
+.alianza-logo > .empresa{
+	float: left;
+	width: 50%;
+	margin: 0;
+	border: 0;
+	padding: 20px;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+.empresa > figure.portada{
+	max-width: 300px;
+	height: 160px;
+	display: table;
+}
+.empresa > figure.portada{
+	display: table-cell;
+	vertical-align: middle;
+}
+h1,h2,h3,h4,h5{
+	color: #5e5e5e;
+	font-weight: 700;
+}
+.blog-post > .bp-header > .imagen{
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+.blog-post > .bp-header > .imagen > figure{
+	width: 100%;
+	height: 145px;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.blog-post > .bp-header > .imagen > figure > img{
+	max-width: 100%;
+	max-height: 145px;
+}
+.producto .thumbnail{
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+.producto .thumbnail img{
+	max-height: 180px;
+	width: auto;
+}
+#insumos .toggle-switch{
+	width: auto !important;
+	padding-top: 5px;
+}
+#insumos label.control-label{
+	font-size: 16px;
+	padding-top: 0;
+	font-weight: 500;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#insumos .toggle-switch .ts-helper:before{
+	top: -2px;
+	width: 20px;
+    height: 20px;
+}
+.card .actions.mini{
+	cursor: pointer;
+	font-size: 15px;
+}
+#insumos .card > .card-header > h2{
+	line-height: 150%;
+}
+#demo{
+	width: 100%;
+	height: 300px;
+}
+#perfil #insumos .card,#perfil #alianzas .card{
+	cursor: pointer;
+}
+#empresas .item .card-body{
+	height: 170px;
+}
+#empresas .item .dotdotdot{
+	height: 60px;
+}
+.propuestas, .empresas{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.propuestas > .item, .empresas > .item{
+	padding: 10px;
+	cursor: pointer;
+	border-bottom: 1px solid #dedede;
+}
+.empresas > .item{
+	cursor: default;
+}
+.empresas > .item > .caption{
+	margin-left: 95px;
+}
+.propuestas > .item:hover{
+	background-color: #dedede;
+}
+.propuestas > .item:last-child, .empresas > .item:last-child{
+	/*border-bottom: none;*/
+}
+.propuestas > .item > .logo, .empresas > .item > .logo{
+	display: table;
+	float: left;
+	margin-right: 10px;
+	table-layout: fixed;
+	width: 80px;
+}
+.propuestas > .item > .logo > figure, .empresas > .item > .logo > figure{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+	width: 80px;
+	height: 75px;
+}
+.propuestas > .item > .logo > figure > img, .empresas > .item > .logo > figure > img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.truncate{
+	width: auto;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+blockquote h1, blockquote h2, blockquote h3, blockquote h4{
+	margin: 5px;
+}
+blockquote > .acciones{
+	float: right;
+	margin-left: 10px;
+}
+ul.insumos{
+    list-style: none;
+}
+@media(max-width:767px){
+	ul.insumos{
+		-webkit-column-count: 1;
+	    -moz-column-count: 1;
+	    column-count: 1;
+	}
+}
+@media(min-width:768px){
+	ul.insumos{
+		-webkit-column-count: 2;
+	    -moz-column-count: 2;
+	    column-count: 2;
+	}
+}
+@media(min-width:992px){
+	ul.insumos{
+		-webkit-column-count: 3;
+	    -moz-column-count: 3;
+	    column-count: 3;
+	}
+}
+.card-footer{
+	text-align: right;
+	text-align: -webkit-right;
+	text-align: -moz-right;
+}
+a{
+	word-wrap: break-word;
+}
+ul.proveedores{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul.proveedores > li{
+	padding: 10px;
+	border-top: 1px solid #dedede;
+	position: relative;
+}
+ul.proveedores > li:last-child{
+	border-bottom: 1px solid #dedede;
+}
+ul.proveedores > li > button{
+	position: absolute;
+    right: 5px;
+    bottom: 4px;
+}
+figure.logo{
+	width: 100%;
+	height: 175px;
+	margin-bottom: 10px;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+figure.logo > img{
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: 175px;
+}
+dl.list dt{
+	margin-bottom: 5px;
+}
+dl.list.list-icon dt{
+	position: relative;
+	font-size: 14px;
+	padding-left: 30px;
+    padding-top: 5px;
+}
+dl.list.list-icon dt > i{
+	position: absolute;
+	left: 0;
+}
+.icono{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.i-comision{
+	background-image: url('../../icons/money24.png');
+}
+.i-alianzas{
+	background-image: url('../../icons/handshake.png');
+}
+.i-insumos{
+	background-image: url('../../icons/package.png');
+}

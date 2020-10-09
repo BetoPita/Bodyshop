@@ -1,0 +1,425 @@
+.modal.load-ajax {
+  text-align: center;
+  padding: 0!important;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal.load-ajax:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal.load-ajax .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal.load-ajax .modal-body{
+	padding: 15px;
+}
+#modal-imagen .modal-body,
+#modal-imagen .modal-content{
+	background-color: transparent !important;
+	padding: 0 !important;
+	box-shadow: none !important;
+ }
+ #modal-imagen img{
+ 	width: 100%;
+ 	max-width: 100%;
+ }
+.centered{
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+.actions > li{
+	cursor: pointer;
+}
+.actions>li.open>a>i,.actions>li>a>i{
+	margin-top: 5px;
+	margin-left: 2px;
+}
+.card-body .card-actions{
+	margin: 10px;
+}
+.card-actions > .actions-right,
+.card-actions > .actions-left{
+
+}
+.card-actions > .actions-right{
+	text-align: right;
+	text-align: -webkit-right;
+	text-align: -moz-right;
+}
+.card-actions > .actions-left{
+	text-align: left;
+	text-align: -webkit-left;
+	text-align: -moz-left;
+}
+.list-group > .list-group-item > .action{
+	float: right;
+	display: inline-block;
+	min-width: 10px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-align: center;
+	cursor: pointer;
+}
+.table .actions{
+	font-size: 18px;
+}
+.table .actions > li{
+	margin-right: 10px;
+	cursor: pointer;
+}
+.form-group.has-error .fg-label{
+	color: #f44336 !important;
+}
+.sortable li{
+	cursor: move;
+}
+.toggle-switch{
+	width: 100%;
+	display: table;
+}
+.toggle-switch > figure,
+.toggle-switch > .perfil{
+	display: table-cell;
+	vertical-align: middle;
+}
+.toggle-switch > .perfil > label{
+	display: block;
+	margin-left: 10px;
+}
+figure.avatar{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 4px solid #dddddd;
+}
+figure.avatar img{
+	width: 100%;
+	height: 100%;
+    border-radius: 50px;
+}
+#proyectos .card, #comentarios .card{
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+#proyectos .card > .card-header button{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#proyectos .card > .card-header h2{
+	width: 80%;
+	cursor: pointer;
+}
+#proyectos .card > .card-header h2 > span,
+#proyectos .card > .card-header h2 > small{
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#proyectos .card > .card-header h2:hover{
+	text-decoration: underline;
+}
+.stepwizard-row {
+	display: table-row;
+}
+
+.stepwizard {
+	display: table;
+	width: 100%;
+	position: relative;
+}
+
+.stepwizard-step button[disabled] {
+	opacity: 1 !important;
+	filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+	top: 38px;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 2px;
+	background-color: #ccc;
+	z-index: 0;
+
+}
+.stepwizard-step {
+	display: table-cell;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+	position: relative;
+}
+.etapa{
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.etapa.active{
+	color: #2196F3;
+}
+.tmn-counts {
+    color: #FFF;
+    right: 7px;
+    top: -3px;
+    font-size: 10px;
+    animation-name: wobble;
+    animation-duration: 500ms;
+    animation-fill-mode: both;
+    position: absolute;
+    font-style: normal;
+    background: #F44336 none repeat scroll 0% 0%;
+    padding: 1px 5px;
+    border-radius: 2px;
+    z-index: 4;
+}
+.etapa-icono{
+  border-radius:100%;
+  width:80px;
+  height:80px;
+  border:6px solid #dddddd;
+  background-color: #eeeeee;
+  line-height: 7;
+  cursor: pointer;
+}
+.etapa-icono:hover{
+  color: #2196F3;
+}
+@media(max-width:767px){
+  .stepwizard{
+	overflow-x: auto;
+  }
+  .etapa, .etapa-icono{
+	width: 50px;
+	height: 50px;
+  }
+  .etapa-icono i{
+	font-size: 2em;
+	position: absolute;
+	top: 13px;
+	left: 13px;
+  }
+  .stepwizard-row:before{
+	top: 25px;
+  }
+}
+.tab-nav.wizard > li{
+	pointer-events: none;
+}
+.actions.mini > li > i{
+	cursor: pointer;
+}
+.disabled{
+	pointer-events: none !important;
+}
+/*---Estilos de detalles de la etapa---*/
+#comments{
+	background-color: #dddddd;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
+}
+@media(max-width:767px){
+	#comments .nav-detalle{
+		display: none;
+	}
+}
+#comments #nombre{
+	margin-top: 0px;
+}
+#comments h3{
+
+}
+#comments #acciones-etapa li{
+ cursor: pointer;
+}
+#comments #acciones-etapa li.active{
+	color: #000;
+}
+#comments figure.avatar{
+	width: 40px;
+	height: 40px;
+}
+#comments .card > .card-footer{
+	border-top: 1px solid #dddddd;
+}
+#comments .card > .card-header h4,
+#comments .card > .card-body p{
+	margin-bottom: 5px;
+	padding-right: 70px;
+}
+#comments .comment{
+	border-top: 1px solid #dddddd;
+    position: relative;
+    margin: 0!important;
+    width: 100%;
+    min-height: 40px;
+}
+#comments .comment button{
+	position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    width: 40px;
+    height: 100%;
+    font-size: 25px;
+    background: #F5F5F5;
+    color: #2196f3;
+}
+#comments .comment textarea {
+    width: 100%;
+    font-size: 13px;
+    border: 0;
+    padding: 8px 50px 8px 5px !important;
+    height: 34px;
+    resize: none;
+}
+#comments .card{
+	margin-bottom: 10px;
+}
+
+#new-comment .actions.new-comment i{
+	cursor: pointer;
+	font-size: 1.5em;
+}
+#new-comment figure.preview{
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	position: relative;
+}
+#new-comment figure.preview i{
+	position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+#new-comment .preview img{
+	width: 100%;
+	max-width: 100%;
+}
+#new-comment .file{
+	width: 100%;
+	padding: 5px;
+	margin: 0px;
+}
+#new-comment .file #eliminar-archivo{
+	float: right;
+    font-size: 1.5em;
+}
+
+#datos .card .card-header .actions{
+	top: 15px;
+	right: 15px;
+}
+#datos .comentarios .media{
+	position: relative;
+}
+#datos .comentarios .media-body .actions{
+	position: absolute;
+    right: 10px;
+    z-index: 2;
+    top: 0px;
+}
+#datos #load, #datos #none-comments{
+	padding: 30px;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+#datos figure{
+	width: 100%;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+#datos figure img{
+	width: 100%;
+}
+#datos pre{
+	background-color: transparent;
+	border: none;
+	padding: 0px;
+	font-family: 'roboto';
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#datos .file{
+	margin-bottom: 0px;
+}
+#datos .action.footer{
+	margin: 0px;
+	padding: 0px;
+}
+#datos .action.footer > li{
+	cursor: pointer;
+}
+#datos .comentarios{
+	background-color: #f7f7f7;
+}
+#datos .comentarios > .media{
+	border-bottom: 1px solid #dddddd;
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+#datos .comentarios > .media:last-child{
+	border-bottom: none;
+}
+#datos .editar-contenido{
+	width: 100%;
+	height: auto;
+	border: 1px solid #dddddd;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	resize: none;
+}
+#datos .btns-editar-comentario{
+	margin-bottom: 10px;
+	text-align: right;
+	text-align: -webkit-right;
+	text-align: -moz-right;
+}
+.editor-airmod-lite{
+	padding: 5px;
+	padding-right: 45px;
+}
+.editor-airmod-lite p{
+	margin-bottom: 5px;
+}
+.editor-comentario{
+	border: 1px dashed #dddddd;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.comentario-contenido p,
+.editor-comentario p{
+	padding: 0 !important;
+	margin-bottom: 5px;
+}
+.check-label{
+	width: 100%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.check-label > label.
+.check-label > span{
+	display: inline-block;
+}

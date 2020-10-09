@@ -1,0 +1,205 @@
+body{
+	min-height: 100vh;
+}
+.s-loading{
+	display: none;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.s-loading:before{
+	content: '';
+	display: inline-block;
+	height: 50%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+.s-loading > .content{
+	text-align: center;
+	color: #fff;
+}
+.modal {
+	text-align: center;
+	padding: 0!important;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+.modal .modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+.modal .modal-header,
+.modal .modal-body,
+.modal .modal-footer{
+	padding: 15px 22px !important;
+}
+.centered{
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+.card-body .card-actions{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.card-actions > .actions-right,
+.card-actions > .actions-left{
+
+}
+.card-actions > .actions-right{
+	text-align: right;
+	text-align: -webkit-right;
+	text-align: -moz-right;
+}
+.card-actions > .actions-left{
+	text-align: left;
+	text-align: -webkit-left;
+	text-align: -moz-left;
+}
+.toggle-switch{
+	width: 100%;
+	display: table;
+}
+.toggle-switch > figure,
+.toggle-switch > .perfil{
+	display: table-cell;
+	vertical-align: middle;
+}
+.toggle-switch > .perfil > label{
+	display: block;
+	margin-left: 10px;
+}
+tbody .actions{
+	font-size: 1.5em;
+}
+tbody .actions > li{
+	margin-right: 5px;
+	cursor: pointer;
+}
+figure.avatar{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 4px solid #dddddd;
+}
+figure.avatar img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50px;
+}
+pre.texto{
+	background-color: transparent;
+	border: none;
+	padding: 0px;
+	font-family: 'roboto';
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	background: red;
+	cursor: inherit;
+	display: block;
+}
+input[readonly] {
+	background-color: white !important;
+	cursor: text !important;
+}
+.touchspin{
+	text-align: center;
+}
+.confirm{
+	color: #fff !important;
+	background-color: #2196f3 !important;
+	border-color: #0d8aee !important;
+}
+.confirm:hover{
+	color: #fff !important;
+	background: none !important;
+	background-color: #2196f3 !important;
+	border-color: transparent !important;
+}
+.form-group.has-error label{
+	color: #f44336;
+}
+.table-responsive .form-control,
+.table-responsive .form-control{
+	width: auto !important;
+	display: inline-block !important;
+}
+.table-responsive .btn-primary,
+.table-responsive .btn-primary{
+	color: #fff !important;
+	background-color: #2196f3 !important;
+	border-color: #0d8aee !important;
+}
+.table-responsive .btn-primary:hover,
+.table-responsive .btn-primary:focus,
+.table-responsive .btn-primary.focus,
+.table-responsive .btn-primary:active,
+.table-responsive .btn-primary:hover,
+.table-responsive .btn-primary:focus,
+.table-responsive .btn-primary.focus,
+.table-responsive .btn-primary:active{
+	color: #fff !important;
+	background: none !important;
+	background-color: #2196f3 !important;
+	border-color: transparent !important;
+}
+.table-responsive .btn-primary.disabled,
+.table-responsive .btn-primary.disabled{
+	color: #fff !important;
+	background-color: #2196f3 !important;
+	border-color: #0d8aee !important;
+}
+.touchspin-decimales{
+	text-align: center;
+}
+.table > tbody > tr:last-child > td,
+.table > tfoot > tr:last-child > td{
+	padding-bottom: 10px !important;
+}
+.card-header > .action-header-left{
+	float: left;
+	width: 40px;
+	margin-right: 10px;
+}
+.card-header > .action-header-right{
+	float: right;
+	margin-left: 10px;
+}
+*[data-link]{
+	cursor: pointer;
+}
+.card .card{
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+.card-header h2, .card-header small{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

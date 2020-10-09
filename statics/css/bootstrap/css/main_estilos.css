@@ -1,0 +1,77 @@
+/* CSS Document */
+.tamano1500{ 
+				width:1500px;
+				}
+				
+	.tamano_logo{ 
+	 			width:217px; 
+				height:104px;
+				}
+				
+	.color_blanco{ 
+				   background:#fff;
+				  }
+				  
+	.fondo_pantalla{ 
+					background:#f4f4f2;
+				   }
+				   
+	.boton_salir{ 
+				 background:#db0a5b; 
+				 width:97px; 
+				 height:43px; 
+				 border:0px; 
+				 color:#fff;  
+				 font-size:18px;
+				}
+				
+	.bienvenido{ 
+				font-size:30px; 
+				color:#7f8c8d;
+				}
+				
+	.header_nombre{  
+				   height:50px; 
+				   margin-top:40px; 
+				   font-size:18px; 
+				   color:#2980b9;
+				   }
+				   
+	.header_banner{ 
+				   height:279px; 
+				   background:#fff;
+				   }
+				   
+	.header_mensajes{ 
+					height:50px; 
+					background:#f1c40f; 
+					color:#fff; 
+					font-size:18px;
+					margin-top:40px; 
+					width:300px;
+					text-align: center;
+					padding-top:10px;
+					}
+	.mensajes_{ height:365px;
+				width:300px;
+				max-height: 400px;
+				overflow: hidden;
+				overflow-y: auto;}
+    
+	.menu_{ width:731px; height:69px;}
+	.menu_texto{ font-size:20px; color:#7f8c8d;}
+	.menu_abajo{ width:731px; height:3px;}
+	.menu_servicios{ background:#f1c40f;}
+	
+	.menu_botones{ width:238px; height:283px; color:#7f8c8d; font-size:18px; margin:30px; }
+	.margen50{margin-top:50px;}
+	
+	
+	.casas_cuadro{ width:200px; height:55px; margin:40px; float:left; color:#7f8c8d; font-size:18px; }
+	.texto_menu_casa{ margin:10px;}
+	.limpiar{ clear:both;}
+	
+	.textos_al{ font-size:20px;color:#2980b9;}
+	
+	
+	.alojamiento_imagen{ width:300px; height:400px; color:#7f8c8d; font-size:18px; margin:30px; }

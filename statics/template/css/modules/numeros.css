@@ -1,0 +1,11 @@
+thead{
+	pointer-events: none;
+}
+.datepicker thead{
+	pointer-events: auto;
+}
+.sorting_asc,
+.sorting_desc,
+.sorting{
+	background-image: none !important;
+}

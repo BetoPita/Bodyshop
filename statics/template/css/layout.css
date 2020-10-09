@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto/roboto_regular_macroman/Roboto-Regular-webfont.woff");
+}
+@font-face {
+  font-family: 'RobotoThin';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto/roboto_thin_macroman/Roboto-Thin-webfont.woff");
+}
+#page-wrapper {
+  padding: 50px;
+}
+h1.titulo {
+  font-family: 'RobotoRegular';
+  font-size: 35px;
+}
+h2.titulo {
+  font-family: 'RobotoRegular';
+  font-size: 27px;
+  margin: 0;
+}
+.blue {
+  color: #478fca !important;
+}
+.dataTables_wrapper {
+  background-color: #eff3f8;
+  padding: 10px 0 10px 0;
+}
+.dataTables_wrapper .acciones {
+  color: #119548;
+  font-size: 24px;
+  line-height: 20px;
+  text-align: center;
+  width: 60px;
+}
+.dataTables_wrapper .acciones a {
+  color: #101010;
+  cursor: pointer;
+  text-decoration: none;
+}
+.dataTables_filter input[type="search"] {
+  width: 300px;
+  min-height: 40px;
+}
+.dataTables_length select {
+  height: 40px;
+}
+.header {
+  line-height: 28px;
+  margin-bottom: 16px;
+  margin-top: 18px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+}
+.blue {
+  border-bottom-color: #4f718d;
+}
+.lighter {
+  font-weight: lighter;
+}
+.table thead tr {
+  color: #707070;
+  background-image: -webkit-linear-gradient(top, #f8f8f8 0, #ececec 100%);
+  background-image: -o-linear-gradient(top, #f8f8f8 0, #ececec 100%);
+  background-image: linear-gradient(to bottom, #f8f8f8 0, #ececec 100%);
+  background-repeat: repeat-x;
+  filter: 'progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorstr=' rgba(255,248,248,0.973) ', EndColorstr=' rgba(255,236,236,0.925) ')';
+}
+.table-header {
+  background-color: #307ecc;
+  color: #fff;
+  font-size: 14px;
+  line-height: 38px;
+  padding-left: 12px;
+  margin-bottom: 1px;
+}
+.panel-body {
+  text-align: center;
+}
+.panel-personal {
+  border-color: #01579b;
+  box-shadow: 0px 9px 9px rgba(0,0,0,0.15);
+}
+.panel-personal .panel-heading {
+  background-color: #01579b;
+  border-color: #01579b;
+  color: #fafafa;
+}
+.panel-personal .acceso {
+  background-color: #0277bd;
+  border: 1px #0277bd solid;
+  border-radius: 17px;
+  color: #fafafa;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 18px 10px 0px 10px;
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.panel-personal .acceso:hover {
+  background-color: #0091ea;
+  -webkit-box-transform: scale(1.05);
+  -moz-box-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.panel-personal .acceso .fa {
+  font-size: 24px;
+}
+.panel-personal .datos {
+  border: 1px #0277bd solid;
+  border-radius: 17px;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 25px 10px 0px 10px;
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.panel-personal .datos:hover {
+  background-color: #0277bd;
+  color: #fafafa;
+  -webkit-box-transform: scale(1.05);
+  -moz-box-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.notificacion {
+  text-align: center;
+  font-family: 'RobotoRegular';
+  padding: 1em;
+}
+.notificacion.even {
+  background: #ececec;
+}
+.notificacion .day,
+.notificacion .month {
+  vertical-align: top;
+  display: inline-block;
+}
+.notificacion .day {
+  margin: 0px 10px 0px 10px;
+  font-size: 60px;
+}
+.notificacion .month {
+  font-size: 20px;
+}
+.notificacion .details {
+  text-align: justify;
+}
+.notificacion .fecha {
+  color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 65px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.notificacion .fecha div {
+  height: 42px;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 8px;
+}
+.notificacion .fecha .dia {
+  background: #0091ea;
+}
+.notificacion .fecha .mes {
+  background: #6c7074;
+}
+.alert-notificacion {
+  background: rgba(51,51,51,0.9);
+  box-shadow: 0 0 5px rgba(51,51,51,0.5);
+  color: #fff;
+}
+.alert-notificacion button.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fafafa !important;
+  opacity: 0.5;
+}
+.alert-notificacion button.close:hover {
+  opacity: 0.5;
+}
+.js_detallesNoti {
+  cursor: pointer;
+}
+.count {
+  position: absolute;
+  color: #fff;
+  font-style: normal;
+  background: #f44336 none repeat scroll 0% 0%;
+  padding: 0px 5px;
+  border-radius: 2px;
+  right: 7px;
+  top: 1px;
+  font-size: 10px;
+  animation-name: wobble;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+}

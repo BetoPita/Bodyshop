@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Roboto/roboto_regular_macroman/Roboto-Regular-webfont.woff);
+}
+@font-face {
+  font-family: 'RobotoBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Roboto/roboto_bold_macroman/Roboto-Bold-webfont.woff);
+}
+@font-face {
+  font-family: 'text';
+  src: url("../fonts/AbrilFatface-Regular.otf");
+}
+html
+	height 100%
+body
+	height 100%
+  	background: url("../img/logOn/lagloria.png") no-repeat center center fixed;
+	background-size 100% auto
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	//@media screen and (max-width: 740px)
+		//background white
+	h1
+		color white
+		font-family: "text";
+#header
+	min-height 100px
+	background-color #f5f5f5
+	.logo
+		margin 26px 10px 26px 20px
+		float left
+	.textos
+		width 134px
+		float left
+		margin 26px 0
+		font-size 15px
+		color #7e7e7e
+		span
+			font-family 'RobotoRegular'
+			&.negritas
+				font-family "RobotoBold"
+.footer
+	background-color #119548
+	position fixed
+	bottom 0
+	left 0
+	right 0
+	.logo
+		margin 26px 10px 26px 20px
+		float left
+	.textos
+		width 134px
+		float left
+		margin 26px 0
+		font-size 12px
+		color #FFF
+		span
+			font-family 'RobotoRegular'
+			&.negritas
+				font-family "RobotoBold"
+
+.adorno1
+	width 30%
+	float left
+	height 10px
+	background-color #b5b5b5
+.adorno2
+	width 70%
+	float left
+	height 10px
+	background-color #119548
+
+.blanco
+	 color: #FFFFFF;
+
+#login-box
+	background rgba(255,255,255,0.7)
+	overflow hidden
+	width 400px
+	padding 25px
+	text-align justify
+	margin 30px auto 0 auto
+	//float right
+	border 1px solid #CCC
+	table
+		width 100%
+	@media screen and (max-width: 740px)
+		//background #FFF
+		float none
+	@media screen and (max-width: 500px)
+		width 100%
+	input[type=text],
+	input[type=password]
+		background #FFF
+		@media screen and (max-width: 740px)
+			background-color #EEE
+		border none
+		padding 5px 5px 5px 40px
+		width 100%
+		height 50px
+		background-repeat no-repeat
+		background-position 10px
+		&.inputUser
+			background-image url(../img/logOn/icon-user.png)
+			margin-bottom 0px
+			margin-top 24px
+		&.inputPassword
+			background-image url(../img/logOn/icon-lock.png)
+			margin-bottom 0px
+	#changePass,
+	input[type=submit]
+		background-color #119548
+		transition background-color .5s ease-in
+		color white
+		border none
+		padding 15px 30px
+		float right
+		margin-left 10px
+		&:hover
+			background-color lighten(#119548, 10%)
+
+.field-validation-error
+	color red
+	
+#checklogon
+	display inline

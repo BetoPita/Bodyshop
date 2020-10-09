@@ -1,0 +1,36 @@
+/**
+ * File where can check the values of fonts
+ * colors or all the topics with relation to
+ * the letter
+ **/
+
+.font_color_menu {
+    color: #555555;
+    font-weight: bold;
+}
+
+.font_color_one {
+    color: #000000;
+}
+
+.font_color_two {
+    color: #FF0000;
+}
+
+.font_color_three {
+    color: GREEN;
+}
+
+.font_size_title_section {
+    font-size: 22px;
+}
+
+.font_message_error {
+    font-size: 14px;
+    color: #FF0000;
+}
+
+.font_message_success {
+    font-size: 14px;
+    color: GREEN;
+}
